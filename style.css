@@ -12,7 +12,7 @@
     max-width: 1150px;
     margin: auto;
     background-color: #fff;
-    /* border: 1px solid green; */
+    border: 1px solid #ececec; 
 }
 header{
     border-bottom: 2px solid #ececec;
@@ -277,10 +277,14 @@ font-weight: 700;
 .sponsorInfo > ol >li{
     width: 500px;
     /* border: 1px solid; */
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.3rem;
    
 }
+.sponsorInfo > ol >li > span{
+    font-weight: 700;
+}
+
 .sponsorInfo >.bottomP{
     width: 500px;
     /* border: 2px solid black; */
